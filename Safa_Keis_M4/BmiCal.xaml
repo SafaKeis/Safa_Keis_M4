@@ -75,9 +75,9 @@
                 <Label Text="Height (inch)" HorizontalOptions="Center" FontSize="Medium"/>
                   <Slider ThumbColor="DarkBlue" 
                     x:Name="SliderHeight"
-                    Minimum="52"
-                    Maximum="90"
-                    Value="70"/>
+                    Minimum="0"
+                    Maximum="100"
+                    Value="50"/>
             <!--changes the nnumber using label-->
                 <Label HorizontalOptions="Center" 
                    FontSize="Medium"
@@ -96,9 +96,9 @@
                 <Label Text="Weight (lbs)" HorizontalOptions="Center" FontSize="Medium"/>
                 <Slider ThumbColor="DarkBlue" 
                     x:Name="SliderWeight"
-                    Minimum="91"
+                    Minimum="90"
                     Maximum="300"
-                    Value="190"/>
+                    Value="90"/>
                 <!--changes the nnumber using label-->
                 <Label HorizontalOptions="Center" 
                    FontSize="Medium"
